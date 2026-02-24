@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run python skills/price.py*)",
+      "Bash(uv run python skills/technicals.py*)",
+      "Bash(uv run python skills/fundamentals.py*)",
+      "Bash(uv run python skills/options.py*)",
+      "Bash(uv run python skills/news.py*)",
+      "Bash(uv run python skills/peers.py*)",
+      "Bash(uv sync*)"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+[project]
+name = "fi-dog"
+version = "0.1.0"
+description = "Autonomous multi-step stock analysis agent for Claude Code"
+requires-python = ">=3.12"
+dependencies = [
+    "yfinance>=0.2.0",
+    "pandas-ta",
+    "finnhub-python>=2.4.0",
+    "feedparser>=6.0.0",
+    "python-dotenv>=1.0.0",
+]
